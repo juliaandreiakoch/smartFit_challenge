@@ -1,0 +1,153 @@
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.form{
+  display: flex;
+  border: 4px solid var(--super-light-grey);
+  background-color: transparent;;
+  width: 65%;
+  height: min-content;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.watch{
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.simple-text{
+  font-size: 20px;
+  color: var(--light-grey);
+  font-family: 'Gotham-light';
+}
+
+.text-shift{
+  font-size: 22px;
+  color: var(--light-grey);
+  margin-left: 8px
+}
+
+.header-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  width: min-content;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.form-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title{
+  font-size: 35px;
+  color: var(--light-grey);
+  width: 90%;
+  font-family: 'Gotham-light';
+}
+
+.simple-line{
+  background-color: var(--super-light-grey);
+  width: 93%;
+  height: 2px;
+  margin-top: -20px;
+}
+
+.checkbox-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.checkbox-shift{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-list{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.shift{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.checkbox-list input[type="radio"] {
+  transform: scale(2);
+}
+
+.checkbox-display-closed-gyms{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.checkbox-display-closed-gyms input[type="checkbox"] {
+  transform: scale(2);
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.button-find{
+  width: 300px;
+  height: 50px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Gotham-bold';
+  cursor: pointer;
+}
+
+.button-find:hover{
+  background-color: #ffb812ab;;
+}
+
+.button-clear{
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: solid 3px var(--light-grey);
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Gotham-bold';
+  cursor: pointer;
+}
+
+.button-clear:hover{
+  background-color: #f7f5ef;
+}
