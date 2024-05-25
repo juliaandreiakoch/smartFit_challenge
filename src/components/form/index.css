@@ -151,3 +151,199 @@
 .button-clear:hover{
   background-color: #f7f5ef;
 }
+
+@media (max-width: 1550px) {
+  .watch{
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+  }
+  
+  .simple-text{
+    font-size: 18px;
+  }
+
+  .form-title{
+    font-size: 30px;
+  }
+
+  .text-shift{
+    font-size: 20px;
+    margin-left: 8px
+  }
+
+  .checkbox-list input[type="radio"] {
+    transform: scale(1.8);
+  }
+
+  .checkbox-display-closed-gyms input[type="checkbox"] {
+    transform: scale(1.8);
+  }
+
+  .button-find{
+    width: 280px;
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  .button-clear{
+    width: 280px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .header-form{
+    margin-left: 28px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .watch{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .simple-text{
+    font-size: 16px;
+  }
+
+  .form-title{
+    font-size: 25px;
+  }
+
+  .text-shift{
+    font-size: 18px;
+    color: var(--light-grey);
+    margin-left: 6px
+  }
+
+  .checkbox-list input[type="radio"] {
+    transform: scale(1.5);
+  }
+
+  .checkbox-display-closed-gyms input[type="checkbox"] {
+    transform: scale(1.5);
+  }
+
+  .button-find{
+    font-size: 16px;
+  }
+  
+  .button-clear{
+    font-size: 16px;
+  }
+
+  .button-find{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  .button-clear{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .header-form{
+    margin-left: 26px;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .watch{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+  }
+  
+  .simple-text{
+    font-size: 14px;
+  }
+
+  .form-title{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .text-shift{
+    font-size: 16px;
+    color: var(--light-grey);
+    margin-left: 4px
+  }
+
+  .checkbox-list input[type="radio"] {
+    transform: scale(1.3);
+  }
+
+  .checkbox-display-closed-gyms input[type="checkbox"] {
+    transform: scale(1.3);
+  }
+
+  .button-find{
+    width: 220px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  .button-clear{
+    width: 220px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .header-form{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .watch{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+  }
+  
+  .simple-text{
+    font-size: 13px;
+  }
+  .form-title{
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+
+  .text-shift{
+    font-size: 14px;
+    color: var(--light-grey);
+    margin-left: 2px
+  }
+
+  .checkbox-list input[type="radio"] {
+    transform: scale(1.1);
+  }
+
+  .checkbox-display-closed-gyms input[type="checkbox"] {
+    transform: scale(1.1);
+  }
+  
+  .button-find{
+    width: 190px;
+    height: 40px;
+    font-size: 12px;
+  }
+  
+  .button-clear{
+    width: 190px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .header-form{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
